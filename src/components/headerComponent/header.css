@@ -1,0 +1,74 @@
+.header {
+  min-width: 100vw;
+  background-color: #2196F3;
+}
+
+.header-content {
+  max-width: 1820px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 64px;
+}
+
+.logo {
+  background-image: url(../../assets/match-logo.png);
+  background-size: cover;
+  background-position: center;
+  width: 80px;
+  height: 40px;
+}
+
+.routing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 95px;
+  font-size: 12pt;
+}
+
+.question {
+  background-image: url(../../assets/quest.png);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.star {
+  background-image: url(../../assets/stars.png);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.gear {
+  background-image: url(../../assets/gear.png);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.text {
+  padding-top: 5px;
+  color: white;
+}
+
+.registration {
+  min-width: 116px;
+  height: 36px;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.new {
+  color: #2196F3;
+  padding: 0 15px;
+}

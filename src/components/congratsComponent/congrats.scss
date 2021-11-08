@@ -1,0 +1,28 @@
+.congrats {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  margin: auto;
+}
+
+.congrats__text {
+  margin-top: 20px;
+  max-width: 350px;
+}
+
+.congrats__ok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 30px;
+  background-color: #2196F3;
+  border-radius: 2px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer
+}

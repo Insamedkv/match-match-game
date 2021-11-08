@@ -1,0 +1,42 @@
+.how-to {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+}
+.new-player {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.step {
+  padding: 20px;
+  display: flex;
+  max-width: 400px;
+  height: 200px;
+  background-color: white;
+}
+.step-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #2196F3;
+  border-radius: 50%;
+}
+.step-options {
+  padding: 20px;
+  display: flex;
+  max-width: 400px;
+  height: 70px;
+  background-color: white;
+}
+.number {
+  font-size: 24px;
+  color: white;
+}
+.step-text {
+  max-width: 330px;
+}

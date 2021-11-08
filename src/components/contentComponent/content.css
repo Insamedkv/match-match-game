@@ -1,0 +1,12 @@
+.contentField {
+  width: 100vw;
+  height: 90vh;
+}
+.mainContent {
+  margin: 50px auto;
+  padding: 30px 185px 85px 60px;
+  background: rgba(0, 0, 0, 0.05);
+  width: 70%;
+  height: 80%;
+  border-radius: 5px;
+}

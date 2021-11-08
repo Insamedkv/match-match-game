@@ -1,0 +1,86 @@
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+@use "@material/button/styles";
+
+@include textfield.core-styles;
+
+.registr-pop-up {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  background-color: #FFF;
+}
+
+.data-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  max-width: 238px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.material-icons {
+  display: none;
+  background-image: url(../../assets/ok-icon.png);
+  background-size: contain;
+  width: 40px;
+  height: 35px;
+
+  &__open {
+    display: flex;
+  }
+}
+
+.error-message {
+  width: 238px;
+  height: 20px;
+}
+
+.error-color {
+  display: none;
+  color: #b00020;
+
+  &__open {
+    display: flex;
+  }
+
+}
+
+.margin-design {
+  margin-top: 15px;
+}
+
+.avatar {
+  width: 198px;
+  height: 198px;
+}
+
+.add-cancel {
+  display: flex;
+  place-self: flex-end;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.cancel-btn {
+  color: #2196F3;
+  background-color: #E3F2FD;
+  padding: 10px 15px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  cursor: pointer;
+}

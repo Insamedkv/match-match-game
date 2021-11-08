@@ -1,0 +1,25 @@
+@use "@material/list/mdc-list";
+@use "@material/menu-surface/mdc-menu-surface";
+@use "@material/menu/mdc-menu";
+@use "@material/select/styles";
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.mdc-select__anchor {
+  width: 260px;
+}
+
+.mdc-select .mdc-select__anchor {
+  padding: 0;
+}
+
+.mdc-select--filled .mdc-floating-label {
+  left: 0;
+}

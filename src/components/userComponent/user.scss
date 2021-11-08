@@ -1,0 +1,47 @@
+.new-player {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.player {
+  display: flex;
+}
+
+.player-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.player-name-mail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.e-mail {
+  font-size: 14px
+}
+
+.score {
+  display: flex;
+  align-items: center;
+}
+
+.player-score {
+  font-weight: 600;
+}
+
+.score-number {
+  font-weight: 600;
+  color: #2196F3;
+  margin-left: 10px;
+}
+
+.underline {
+  margin-top: 5px;
+}
